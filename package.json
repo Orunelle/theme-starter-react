@@ -15,10 +15,10 @@
     "dev:editor": "orunelle-theme dev --editor"
   },
   "dependencies": {
-    "@orunelle/theme-contract": "^2.0.0-alpha.6",
-    "@orunelle/theme-engine": "^2.0.0-alpha.7",
-    "@orunelle/theme-runtime": "^2.0.0-alpha.12",
-    "@orunelle/theme-sdk": "^2.0.0-alpha.8",
+    "@orunelle/theme-contract": "2.0.0-alpha.13",
+    "@orunelle/theme-engine": "2.0.0-alpha.13",
+    "@orunelle/theme-runtime": "2.0.0-alpha.13",
+    "@orunelle/theme-sdk": "2.0.0-alpha.13",
     "@tanstack/react-query": "5.102.0",
     "@tanstack/react-router": "1.170.46",
     "@tanstack/react-router-ssr-query": "1.167.3",

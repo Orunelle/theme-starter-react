@@ -4,29 +4,22 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-overrides:
-  '@orunelle/theme-contract': file:vendor/orunelle-theme-contract-2.0.0-alpha.6.tgz
-  '@orunelle/theme-sdk': file:vendor/orunelle-theme-sdk-2.0.0-alpha.8.tgz
-  '@orunelle/theme-engine': file:vendor/orunelle-theme-engine-2.0.0-alpha.7.tgz
-  '@orunelle/theme-editor': file:vendor/orunelle-theme-editor-2.0.0-alpha.5.tgz
-  '@orunelle/theme-runtime': file:vendor/orunelle-theme-runtime-2.0.0-alpha.12.tgz
-
 importers:
 
   .:
     dependencies:
       '@orunelle/theme-contract':
-        specifier: file:vendor/orunelle-theme-contract-2.0.0-alpha.6.tgz
-        version: file:vendor/orunelle-theme-contract-2.0.0-alpha.6.tgz
+        specifier: 2.0.0-alpha.13
+        version: 2.0.0-alpha.13
       '@orunelle/theme-engine':
-        specifier: file:vendor/orunelle-theme-engine-2.0.0-alpha.7.tgz
-        version: file:vendor/orunelle-theme-engine-2.0.0-alpha.7.tgz(@tanstack/react-router@1.170.46(react-dom@19.3.1(react@19.3.1))(react@19.3.1))(react@19.3.1)
+        specifier: 2.0.0-alpha.13
+        version: 2.0.0-alpha.13(@tanstack/react-router@1.170.46(react-dom@19.3.1(react@19.3.1))(react@19.3.1))(react@19.3.1)
       '@orunelle/theme-runtime':
-        specifier: file:vendor/orunelle-theme-runtime-2.0.0-alpha.12.tgz
-        version: file:vendor/orunelle-theme-runtime-2.0.0-alpha.12.tgz(@tanstack/query-core@5.102.0)(@tanstack/react-start@1.169.4(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(rolldown@1.2.16)(vite@8.3.6(@types/node@22.20.5)(jiti@2.7.0)))(@tanstack/router-core@1.171.39)(vite@8.3.6(@types/node@22.20.5)(jiti@2.7.0))
+        specifier: 2.0.0-alpha.13
+        version: 2.0.0-alpha.13(@tanstack/query-core@5.102.0)(@tanstack/react-start@1.169.4(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(rolldown@1.2.16)(vite@8.3.6(@types/node@22.20.5)(jiti@2.7.0)))(@tanstack/router-core@1.171.39)(vite@8.3.6(@types/node@22.20.5)(jiti@2.7.0))
       '@orunelle/theme-sdk':
-        specifier: file:vendor/orunelle-theme-sdk-2.0.0-alpha.8.tgz
-        version: file:vendor/orunelle-theme-sdk-2.0.0-alpha.8.tgz(react@19.3.1)
+        specifier: 2.0.0-alpha.13
+        version: 2.0.0-alpha.13(react@19.3.1)
       '@tanstack/react-query':
         specifier: 5.102.0
         version: 5.102.0(react@19.3.1)
@@ -172,33 +165,28 @@ packages:
     resolution: {integrity: sha512-hAX0pT/73190NLqBPPWSdBVGtbY6VOhWYK3qqHqtXQ1gK7kS2yz4+ivsN07hpJ6I3aeMtKP6J6npsEKOAzuTLA==}
     engines: {node: '>=20.0'}
 
-  '@orunelle/theme-contract@file:vendor/orunelle-theme-contract-2.0.0-alpha.6.tgz':
-    resolution: {integrity: sha512-pDbyvQwK4++bya6FmmpbCxPopgms0xuC838V+8iEToyEXEy31PliiKRfCHSJvG98P256y/nX1ymvfr8rgzWo2w==, tarball: file:vendor/orunelle-theme-contract-2.0.0-alpha.6.tgz}
-    version: 2.0.0-alpha.6
+  '@orunelle/theme-contract@2.0.0-alpha.13':
+    resolution: {integrity: sha512-jklkVEaaky00EaVzZDLIr/jvmeOaX8GQf+dxCAFPC64FYca0CXhWUjtJL5+sc9GLbTie+JxYoTbLPqI0emmncw==}
 
-  '@orunelle/theme-editor@file:vendor/orunelle-theme-editor-2.0.0-alpha.5.tgz':
-    resolution: {integrity: sha512-Kx56CEaR1A/H0F7avA6ZJMKaYNKQ32H9v9PrV7kEAtzJUqq3eC61uRR70FSpHm0iKueYx6gGRMd/iTtEk0yA3w==, tarball: file:vendor/orunelle-theme-editor-2.0.0-alpha.5.tgz}
-    version: 2.0.0-alpha.5
+  '@orunelle/theme-editor@2.0.0-alpha.13':
+    resolution: {integrity: sha512-0WBM6BT9aDGvTZykoB70UJEeX+pUREHu7rNr02Muy7008DYTKOJaE56i86M40UNNlGzeFZ09omfQQiddOysxTQ==}
 
-  '@orunelle/theme-engine@file:vendor/orunelle-theme-engine-2.0.0-alpha.7.tgz':
-    resolution: {integrity: sha512-88kIEzh1wEZvfrZxhXeBwL27S1tPsLi0q5RixlKRC2h+QIJgYDFp9roYCgrUIiuKmY4s68HABkGFmhfvHyAh/A==, tarball: file:vendor/orunelle-theme-engine-2.0.0-alpha.7.tgz}
-    version: 2.0.0-alpha.7
+  '@orunelle/theme-engine@2.0.0-alpha.13':
+    resolution: {integrity: sha512-PLksSenPJupko9vBhv82zNwN4af8jyk/B6ZXCR2cuOY4cwh0WfW2SiVgYP0+7rtJKiotcjRsHeP+DY1Mscv7Dg==}
     peerDependencies:
       '@tanstack/react-router': 1.170.46
       react: ^19.3.1
 
-  '@orunelle/theme-runtime@file:vendor/orunelle-theme-runtime-2.0.0-alpha.12.tgz':
-    resolution: {integrity: sha512-Uq9o4XKKnZ8KCZYgV3KuLpLSuoKX8IAd7sj5ZTNJMwwIjH3Gp9Nn5Ju1PuhhZd8unIq4vscKIMZmzcnb1x0fSw==, tarball: file:vendor/orunelle-theme-runtime-2.0.0-alpha.12.tgz}
-    version: 2.0.0-alpha.12
+  '@orunelle/theme-runtime@2.0.0-alpha.13':
+    resolution: {integrity: sha512-8GMtOs/Fjue0Vrt/oHVDRyNLpxLKhk2bN/U2Bm6rrieqNoK3+6Eu5MdXBfXAhMm79QOMBxpf9rnv19ikwOggxQ==}
     engines: {node: '>=22.12.0'}
     hasBin: true
     peerDependencies:
       '@tanstack/react-start': 1.169.4
       vite: 8.3.6
 
-  '@orunelle/theme-sdk@file:vendor/orunelle-theme-sdk-2.0.0-alpha.8.tgz':
-    resolution: {integrity: sha512-AZlf8UFCSI+CgmMOVs9qv4vVaynrtCmFCKMo9YGVAV/qdezzWsUeYm9LYAdFRWQXR3Z6495xn0KnXEHRWyodFA==, tarball: file:vendor/orunelle-theme-sdk-2.0.0-alpha.8.tgz}
-    version: 2.0.0-alpha.8
+  '@orunelle/theme-sdk@2.0.0-alpha.13':
+    resolution: {integrity: sha512-XoBHc8Z8ZGx7cYa+6hjCvLNuhYo+cbUra8JxqOx274QSPxmZFgBRg9sP13OzgQRu2CLO0Yz+KdTxYm80isHT8w==}
     peerDependencies:
       react: ^19.3.1
 
@@ -1217,28 +1205,28 @@ snapshots:
 
   '@oozcitak/util@10.0.0': {}
 
-  '@orunelle/theme-contract@file:vendor/orunelle-theme-contract-2.0.0-alpha.6.tgz':
+  '@orunelle/theme-contract@2.0.0-alpha.13':
     dependencies:
       ajv: 8.20.0
       zod: 3.25.76
 
-  '@orunelle/theme-editor@file:vendor/orunelle-theme-editor-2.0.0-alpha.5.tgz':
+  '@orunelle/theme-editor@2.0.0-alpha.13':
     dependencies:
-      '@orunelle/theme-contract': file:vendor/orunelle-theme-contract-2.0.0-alpha.6.tgz
+      '@orunelle/theme-contract': 2.0.0-alpha.13
 
-  '@orunelle/theme-engine@file:vendor/orunelle-theme-engine-2.0.0-alpha.7.tgz(@tanstack/react-router@1.170.46(react-dom@19.3.1(react@19.3.1))(react@19.3.1))(react@19.3.1)':
+  '@orunelle/theme-engine@2.0.0-alpha.13(@tanstack/react-router@1.170.46(react-dom@19.3.1(react@19.3.1))(react@19.3.1))(react@19.3.1)':
     dependencies:
-      '@orunelle/theme-contract': file:vendor/orunelle-theme-contract-2.0.0-alpha.6.tgz
-      '@orunelle/theme-sdk': file:vendor/orunelle-theme-sdk-2.0.0-alpha.8.tgz(react@19.3.1)
+      '@orunelle/theme-contract': 2.0.0-alpha.13
+      '@orunelle/theme-sdk': 2.0.0-alpha.13(react@19.3.1)
       '@tanstack/react-router': 1.170.46(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       react: 19.3.1
 
-  '@orunelle/theme-runtime@file:vendor/orunelle-theme-runtime-2.0.0-alpha.12.tgz(@tanstack/query-core@5.102.0)(@tanstack/react-start@1.169.4(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(rolldown@1.2.16)(vite@8.3.6(@types/node@22.20.5)(jiti@2.7.0)))(@tanstack/router-core@1.171.39)(vite@8.3.6(@types/node@22.20.5)(jiti@2.7.0))':
+  '@orunelle/theme-runtime@2.0.0-alpha.13(@tanstack/query-core@5.102.0)(@tanstack/react-start@1.169.4(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(rolldown@1.2.16)(vite@8.3.6(@types/node@22.20.5)(jiti@2.7.0)))(@tanstack/router-core@1.171.39)(vite@8.3.6(@types/node@22.20.5)(jiti@2.7.0))':
     dependencies:
-      '@orunelle/theme-contract': file:vendor/orunelle-theme-contract-2.0.0-alpha.6.tgz
-      '@orunelle/theme-editor': file:vendor/orunelle-theme-editor-2.0.0-alpha.5.tgz
-      '@orunelle/theme-engine': file:vendor/orunelle-theme-engine-2.0.0-alpha.7.tgz(@tanstack/react-router@1.170.46(react-dom@19.3.1(react@19.3.1))(react@19.3.1))(react@19.3.1)
-      '@orunelle/theme-sdk': file:vendor/orunelle-theme-sdk-2.0.0-alpha.8.tgz(react@19.3.1)
+      '@orunelle/theme-contract': 2.0.0-alpha.13
+      '@orunelle/theme-editor': 2.0.0-alpha.13
+      '@orunelle/theme-engine': 2.0.0-alpha.13(@tanstack/react-router@1.170.46(react-dom@19.3.1(react@19.3.1))(react@19.3.1))(react@19.3.1)
+      '@orunelle/theme-sdk': 2.0.0-alpha.13(react@19.3.1)
       '@tanstack/react-query': 5.102.0(react@19.3.1)
       '@tanstack/react-router': 1.170.46(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       '@tanstack/react-router-ssr-query': 1.167.3(@tanstack/query-core@5.102.0)(@tanstack/react-query@5.102.0(react@19.3.1))(@tanstack/react-router@1.170.46(react-dom@19.3.1(react@19.3.1))(react@19.3.1))(@tanstack/router-core@1.171.39)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
@@ -1257,9 +1245,9 @@ snapshots:
       - babel-plugin-react-compiler
       - supports-color
 
-  '@orunelle/theme-sdk@file:vendor/orunelle-theme-sdk-2.0.0-alpha.8.tgz(react@19.3.1)':
+  '@orunelle/theme-sdk@2.0.0-alpha.13(react@19.3.1)':
     dependencies:
-      '@orunelle/theme-contract': file:vendor/orunelle-theme-contract-2.0.0-alpha.6.tgz
+      '@orunelle/theme-contract': 2.0.0-alpha.13
       '@tanstack/react-query': 5.102.0(react@19.3.1)
       react: 19.3.1
       zod: 3.25.76

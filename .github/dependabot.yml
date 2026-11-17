@@ -1,0 +1,16 @@
+# Opens one PR that moves all five @orunelle/theme-* packages to a newly
+# published SDK version together. CI must pass before merging.
+version: 2
+updates:
+  - package-ecosystem: npm
+    directories: ["/"]
+    schedule:
+      interval: daily
+    allow:
+      - dependency-name: "@orunelle/theme-*"
+    groups:
+      orunelle-theme-sdk:
+        patterns: ["@orunelle/theme-*"]
+    versioning-strategy: increase
+    commit-message:
+      prefix: "deps"

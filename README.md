@@ -32,7 +32,7 @@ sample catalog and a browser-local demo bag. It cannot create orders or take
 payments. Installed stores use their real Orunelle catalog, stock, cart,
 customers and checkout.
 
-The Orunelle SDK packages install from `vendor/*.tgz` (see `pnpm-workspace.yaml`).
+The Orunelle SDK packages (`@orunelle/theme-*`) install from npm. All five share one version, pinned exactly in `package.json`. Keep them on the same version when you upgrade.
 
 ## Included
 
