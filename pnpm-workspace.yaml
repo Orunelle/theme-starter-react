@@ -1,0 +1,8 @@
+packages:
+  - "."
+overrides:
+  "@orunelle/theme-contract": "file:vendor/orunelle-theme-contract-2.0.0-alpha.5.tgz"
+  "@orunelle/theme-sdk": "file:vendor/orunelle-theme-sdk-2.0.0-alpha.7.tgz"
+  "@orunelle/theme-engine": "file:vendor/orunelle-theme-engine-2.0.0-alpha.6.tgz"
+  "@orunelle/theme-editor": "file:vendor/orunelle-theme-editor-2.0.0-alpha.5.tgz"
+  "@orunelle/theme-runtime": "file:vendor/orunelle-theme-runtime-2.0.0-alpha.11.tgz"

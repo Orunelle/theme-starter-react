@@ -1,0 +1,45 @@
+{
+  "name": "@orunelle/theme-starter",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "orunelle-theme preview",
+    "typecheck": "orunelle-theme routes && tsc --noEmit",
+    "check:manifest": "orunelle-theme check",
+    "pack:source": "orunelle-theme pack",
+    "build:managed": "orunelle-theme build --output .orunelle/artifact",
+    "test": "orunelle-theme routes && vitest run",
+    "dev:editor": "orunelle-theme dev --editor"
+  },
+  "dependencies": {
+    "@orunelle/theme-contract": "^2.0.0-alpha.5",
+    "@orunelle/theme-engine": "^2.0.0-alpha.6",
+    "@orunelle/theme-runtime": "^2.0.0-alpha.11",
+    "@orunelle/theme-sdk": "^2.0.0-alpha.7",
+    "@tanstack/react-query": "5.102.0",
+    "@tanstack/react-router": "1.170.46",
+    "@tanstack/react-router-ssr-query": "1.167.3",
+    "@tanstack/react-start": "1.169.4",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "sanitize-html": "^2.18.2"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@types/sanitize-html": "^2.16.2",
+    "typescript": "5.9.3",
+    "vite": "8.3.6",
+    "vitest": "4.1.11"
+  },
+  "description": "Orunelle theme starter (based on the Metropolitan storefront)",
+  "engines": {
+    "node": ">=22.12.0",
+    "pnpm": ">=10"
+  },
+  "packageManager": "pnpm@11.0.9"
+}

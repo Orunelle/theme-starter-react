@@ -1,0 +1,328 @@
+.metropolitan-shell .metropolitan-account-page {
+  max-width: 1280px;
+  padding: 64px 48px 88px;
+}
+.metropolitan-auth-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 440px);
+  gap: 96px;
+  align-items: start;
+}
+.metropolitan-auth-intro {
+  padding-block: 24px;
+  max-width: 440px;
+}
+.metropolitan-auth-intro h1,
+.metropolitan-account-heading h1 {
+  margin: 0 0 16px;
+  font-size: 40px;
+  line-height: 1.25;
+  letter-spacing: -0.025em;
+}
+.metropolitan-auth-intro > p,
+.metropolitan-account-heading > p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #484848;
+  max-width: 42ch;
+}
+.metropolitan-auth-benefits {
+  display: grid;
+  gap: 22px;
+  margin-block: 40px;
+}
+.metropolitan-auth-benefits p {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.metropolitan-auth-benefits svg {
+  flex: 0 0 auto;
+}
+.metropolitan-account-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 44px;
+  font-weight: 700;
+  font-size: 14px;
+}
+[dir="rtl"] .metropolitan-account-back svg {
+  transform: rotate(180deg);
+}
+.metropolitan-auth-content {
+  border: 1px solid #dfdfdf;
+  padding: 32px;
+  border-radius: 4px;
+  min-width: 0;
+}
+.metropolitan-auth-content h2 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 0 0 24px;
+  letter-spacing: -0.015em;
+}
+.metropolitan-shell .account-page .metropolitan-google-button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  background: #fff;
+  border: 1px solid #777;
+  color: #111;
+  min-height: 48px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.metropolitan-shell
+  .account-page
+  .metropolitan-google-button:hover:not(:disabled) {
+  background: #f5f5f5;
+  border-color: #111;
+}
+.metropolitan-google-button svg {
+  flex-shrink: 0;
+}
+.metropolitan-auth-divider {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-block: 24px;
+  color: #484848;
+  font-size: 12px;
+}
+.metropolitan-auth-divider::before,
+.metropolitan-auth-divider::after {
+  content: "";
+  height: 1px;
+  background: #dfdfdf;
+  flex: 1;
+}
+.metropolitan-shell .metropolitan-auth-form {
+  display: grid;
+  gap: 20px;
+  margin: 0;
+  max-width: none;
+}
+.metropolitan-auth-form .form-field,
+.metropolitan-account-panel .form-field {
+  display: grid;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.metropolitan-auth-form input,
+.metropolitan-account-panel input,
+.metropolitan-account-panel select {
+  width: 100%;
+  padding: 12px 14px;
+  font-weight: 400;
+  min-width: 0;
+  min-height: 48px;
+  caret-color: #111;
+}
+.metropolitan-auth-form input[type="email"],
+.metropolitan-auth-form input[type="tel"],
+.metropolitan-account-panel input[type="tel"] {
+  direction: ltr;
+  text-align: start;
+}
+.metropolitan-form-pair {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 16px;
+}
+.metropolitan-forgot-link {
+  justify-self: end;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  margin-top: -6px;
+}
+.metropolitan-shell .account-page .metropolitan-auth-submit {
+  width: 100%;
+  min-height: 48px;
+  font-size: 14px;
+  font-weight: 700;
+  padding-inline: 20px;
+}
+.metropolitan-shell .account-page button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+.metropolitan-shell .account-page button:not(:disabled):hover {
+  filter: brightness(0.92);
+}
+.metropolitan-auth-switch {
+  margin: 24px 0 0;
+  padding-top: 24px;
+  border-top: 1px solid #dfdfdf;
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.8;
+}
+.metropolitan-auth-switch a {
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  margin-inline-start: 4px;
+}
+.metropolitan-auth-status:empty {
+  display: none;
+}
+.metropolitan-auth-status,
+.metropolitan-field-help {
+  margin: 0;
+  font-size: 14px;
+  color: #484848;
+  line-height: 1.7;
+}
+.metropolitan-field-help {
+  margin-top: -12px;
+}
+.metropolitan-account-heading {
+  padding-bottom: 36px;
+  border-bottom: 1px solid #dfdfdf;
+  margin-bottom: 32px;
+}
+.metropolitan-account-layout {
+  display: grid;
+  grid-template-columns: 240px minmax(0, 1fr);
+  gap: 64px;
+}
+.metropolitan-account-navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-self: start;
+}
+.metropolitan-account-navigation a {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  min-height: 48px;
+  padding: 12px 16px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+.metropolitan-account-navigation a[aria-current="page"] {
+  background: #f5f5f5;
+  font-weight: 700;
+}
+.metropolitan-account-navigation a:hover {
+  background: #eee;
+}
+.metropolitan-account-panel {
+  min-width: 0;
+}
+.metropolitan-account-panel h2 {
+  font-size: 24px;
+  margin: 0;
+  line-height: 1.5;
+}
+.metropolitan-account-panel .store-form {
+  margin: 0;
+  max-width: 580px;
+  gap: 20px;
+}
+.metropolitan-account-email {
+  text-align: start;
+  color: #484848;
+  margin: 0 0 8px;
+  overflow-wrap: anywhere;
+}
+.metropolitan-account-panel .action-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+  padding-top: 24px;
+  border-top: 1px solid #dfdfdf;
+}
+.metropolitan-account-panel button {
+  padding-inline: 24px;
+  font-size: 14px;
+}
+.metropolitan-shell .metropolitan-account-panel .button-secondary {
+  background: #fff;
+  color: #111;
+  border: 1px solid #777;
+}
+.metropolitan-account-page :is(a, button, input, select):focus-visible {
+  outline: 2px solid #111;
+  outline-offset: 4px;
+}
+@media (max-width: 900px) {
+  .metropolitan-auth-layout {
+    gap: 40px;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 400px);
+  }
+  .metropolitan-auth-intro h1,
+  .metropolitan-account-heading h1 {
+    font-size: 30px;
+  }
+  .metropolitan-account-layout {
+    gap: 32px;
+    grid-template-columns: 200px minmax(0, 1fr);
+  }
+}
+@media (max-width: 680px) {
+  .metropolitan-shell .metropolitan-account-page {
+    padding: 32px 20px 48px;
+  }
+  .metropolitan-auth-layout {
+    display: block;
+  }
+  .metropolitan-auth-intro {
+    padding: 0 0 28px;
+  }
+  .metropolitan-auth-intro h1,
+  .metropolitan-account-heading h1 {
+    font-size: 28px;
+    margin-bottom: 12px;
+  }
+  .metropolitan-auth-intro > p {
+    font-size: 14px;
+    max-width: 42ch;
+  }
+  .metropolitan-auth-benefits {
+    display: none;
+  }
+  .metropolitan-account-back {
+    margin-top: 12px;
+  }
+  .metropolitan-auth-content {
+    border: 0;
+    border-top: 1px solid #dfdfdf;
+    padding: 28px 0 0;
+    border-radius: 0;
+  }
+  .metropolitan-auth-content h2 {
+    font-size: 24px;
+  }
+  .metropolitan-account-layout {
+    display: block;
+  }
+  .metropolitan-account-navigation {
+    flex-direction: row;
+    overflow-x: auto;
+    padding: 4px 0 16px;
+    margin-bottom: 24px;
+    gap: 8px;
+  }
+  .metropolitan-account-navigation a {
+    white-space: nowrap;
+    flex-shrink: 0;
+    padding-inline: 12px;
+  }
+  .metropolitan-account-heading {
+    margin-bottom: 20px;
+    padding-bottom: 24px;
+  }
+}

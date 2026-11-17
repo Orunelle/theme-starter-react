@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "runtimeAbi": "orunelle.react.v2/1",
+  "packages": {
+    "@orunelle/theme-contract": {
+      "version": "2.0.0-alpha.5",
+      "file": "orunelle-theme-contract-2.0.0-alpha.5.tgz",
+      "sha256": "da2883d813ff95de16da316d309080ecee812a6fab66e31681634a71cf5e2b91"
+    },
+    "@orunelle/theme-sdk": {
+      "version": "2.0.0-alpha.7",
+      "file": "orunelle-theme-sdk-2.0.0-alpha.7.tgz",
+      "sha256": "77ff411e8e3ad40d12686ff417bde70b88169576735f832fddc0db73a749afb2"
+    },
+    "@orunelle/theme-engine": {
+      "version": "2.0.0-alpha.6",
+      "file": "orunelle-theme-engine-2.0.0-alpha.6.tgz",
+      "sha256": "979d111d10a151c02231e85a0f263a82361ad58aba960208f6cbf485e05f47cc"
+    },
+    "@orunelle/theme-editor": {
+      "version": "2.0.0-alpha.5",
+      "file": "orunelle-theme-editor-2.0.0-alpha.5.tgz",
+      "sha256": "be883cc19c3ca74b1948e6cda62b48405fed27bccb59b28898f2a698e4d10535"
+    },
+    "@orunelle/theme-runtime": {
+      "version": "2.0.0-alpha.11",
+      "file": "orunelle-theme-runtime-2.0.0-alpha.11.tgz",
+      "sha256": "e600084c08381756d0a697bf7a12a519404a7e74967ac5e174d4c2f3f9abfc6e"
+    }
+  }
+}

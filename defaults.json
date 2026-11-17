@@ -1,0 +1,311 @@
+{
+  "schemaVersion": 2,
+  "configurationVersion": 1,
+  "themeId": "starter",
+  "settings": {},
+  "groups": {
+    "header": {
+      "roots": ["nav-0", "nav-1", "nav-2", "nav-3", "nav-4", "nav-5"]
+    },
+    "footer": {
+      "roots": []
+    }
+  },
+  "templates": {
+    "home": {
+      "roots": [
+        "home-hero",
+        "home-new",
+        "home-collections",
+        "home-favorites",
+        "home-tailoring",
+        "home-ordinary",
+        "home-tailored",
+        "home-featured",
+        "home-looks",
+        "home-story",
+        "home-journal"
+      ]
+    },
+    "product.default": {
+      "roots": ["product.detail"]
+    },
+    "collection.default": {
+      "roots": []
+    },
+    "page.default": {
+      "roots": []
+    },
+    "search": {
+      "roots": []
+    },
+    "cart": {
+      "roots": []
+    },
+    "not-found": {
+      "roots": []
+    }
+  },
+  "nodes": [
+    {
+      "id": "home-hero",
+      "type": "metropolitan.hero",
+      "parent": null,
+      "children": [],
+      "settings": {
+        "title-en": "Dressed for the City",
+        "title-ar": "إطلالة بروح المدينة",
+        "button-en": "For Her",
+        "button-ar": "لها",
+        "href": "/collections/for-her",
+        "image": null,
+        "title-secondary-en": "Quiet Confidence, Out Loud",
+        "title-secondary-ar": "حضور هادئ، وثقة واضحة",
+        "button-secondary-en": "For Him",
+        "button-secondary-ar": "له",
+        "href-secondary": "/collections/for-him",
+        "image-secondary": null,
+        "image-url": "public/assets/metropolitan/demo-01-hero-01.webp",
+        "image-secondary-url": "public/assets/metropolitan/demo-01-hero-02.webp"
+      }
+    },
+    {
+      "id": "home-new",
+      "type": "metropolitan.products",
+      "parent": null,
+      "children": [],
+      "settings": {
+        "title-en": "New This Season",
+        "title-ar": "جديد هذا الموسم",
+        "text-en": "Considered pieces and a fresh perspective on everyday dressing.",
+        "text-ar": "قطع مختارة ورؤية جديدة لإطلالتك اليومية.",
+        "limit": 8,
+        "offset": 0
+      }
+    },
+    {
+      "id": "home-collections",
+      "type": "metropolitan.split",
+      "parent": null,
+      "children": [],
+      "settings": {
+        "title-en": "For Him",
+        "title-ar": "له",
+        "title-secondary-en": "For Her",
+        "title-secondary-ar": "لها",
+        "button-en": "Shop Now",
+        "button-ar": "تسوق الآن",
+        "href": "/collections/for-him",
+        "href-secondary": "/collections/for-her",
+        "image": null,
+        "image-secondary": null,
+        "image-url": "public/assets/metropolitan/demo-01-featured-collection-01.webp",
+        "image-secondary-url": "public/assets/metropolitan/demo-01-featured-collection-02.webp"
+      }
+    },
+    {
+      "id": "home-favorites",
+      "type": "metropolitan.products",
+      "parent": null,
+      "children": [],
+      "settings": {
+        "title-en": "Quiet Favorites",
+        "title-ar": "اختيارات تبقى معك",
+        "text-en": "Everyday essentials, ready for another day in your rotation.",
+        "text-ar": "أساسيات يومية تعود إليها مع كل إطلالة.",
+        "limit": 8,
+        "offset": 8
+      }
+    },
+    {
+      "id": "home-tailoring",
+      "type": "metropolitan.banner",
+      "parent": null,
+      "children": [],
+      "settings": {
+        "title-en": "The New Tailoring",
+        "title-ar": "مفهوم جديد للأناقة",
+        "text-en": "A considered silhouette for wherever the day takes you.",
+        "text-ar": "قَصّات مدروسة ترافقك أينما أخذتك أيامك.",
+        "button-en": "View Collection",
+        "button-ar": "اكتشف المجموعة",
+        "href": "/collections/for-her",
+        "image": null,
+        "image-url": "public/assets/metropolitan/demo-01-layering-banner-01.webp"
+      }
+    },
+    {
+      "id": "home-ordinary",
+      "type": "metropolitan.banner",
+      "parent": null,
+      "children": [],
+      "settings": {
+        "title-en": "Cut Above the Ordinary",
+        "title-ar": "تفاصيل تتجاوز المعتاد",
+        "text-en": "Easy proportions. Distinctive details. Made for your everyday.",
+        "text-ar": "قَصّات مريحة. تفاصيل مميزة. لإطلالتك اليومية.",
+        "button-en": "View Collection",
+        "button-ar": "اكتشف المجموعة",
+        "href": "/collections/for-him",
+        "image": null,
+        "image-url": "public/assets/metropolitan/demo-01-layering-banner-02.webp"
+      }
+    },
+    {
+      "id": "home-tailored",
+      "type": "metropolitan.split",
+      "parent": null,
+      "children": [],
+      "settings": {
+        "title-en": "Tailored for Him",
+        "title-ar": "أناقة مصممة له",
+        "title-secondary-en": "Tailored for Her",
+        "title-secondary-ar": "أناقة مصممة لها",
+        "button-en": "View Collection",
+        "button-ar": "اكتشف المجموعة",
+        "href": "/collections/for-him",
+        "href-secondary": "/collections/for-her",
+        "image": null,
+        "image-secondary": null,
+        "layout": "offset",
+        "image-url": "public/assets/metropolitan/demo-01-layout-collection-01.webp",
+        "image-secondary-url": "public/assets/metropolitan/demo-01-layout-collection-02.webp"
+      }
+    },
+    {
+      "id": "home-looks",
+      "type": "metropolitan.lookbook",
+      "parent": null,
+      "children": [],
+      "settings": {
+        "title-en": "Ways to Wear It",
+        "title-ar": "إلهام لكل إطلالة",
+        "text-en": "A new angle on the pieces you reach for.",
+        "text-ar": "رؤية جديدة لقطعك المفضلة.",
+        "button-en": "View More",
+        "button-ar": "اكتشف المزيد",
+        "href": "/pages/lookbook"
+      }
+    },
+    {
+      "id": "home-story",
+      "type": "metropolitan.story",
+      "parent": null,
+      "children": [],
+      "settings": {
+        "title-en": "Designed to Outlast the Season",
+        "title-ar": "تصميم يتجاوز الموسم",
+        "text-en": "Discover the point of view behind the collection: clean lines, thoughtful proportions, and an eye for the everyday.",
+        "text-ar": "اكتشف الرؤية وراء المجموعة: خطوط هادئة، ونِسَب مدروسة، واهتمام بتفاصيل يومك.",
+        "button-en": "Learn More",
+        "button-ar": "اعرف المزيد",
+        "href": "/pages/about-us",
+        "image": null,
+        "image-url": "public/assets/metropolitan/demo-01-image-with-text-01.webp"
+      }
+    },
+    {
+      "id": "home-journal",
+      "type": "metropolitan.journal",
+      "parent": null,
+      "children": [],
+      "settings": {
+        "title-en": "Metropolitan Stories",
+        "title-ar": "حكايات متروبوليتان",
+        "text-en": "Notes on style and a different way to see your wardrobe.",
+        "text-ar": "تأملات في الأناقة ورؤية مختلفة لخزانة ملابسك.",
+        "button-en": "Read More",
+        "button-ar": "اقرأ المزيد",
+        "href": "/pages/journal"
+      }
+    },
+    {
+      "id": "product.detail",
+      "type": "product-detail",
+      "parent": null,
+      "children": [],
+      "settings": {}
+    },
+    {
+      "id": "nav-0",
+      "type": "metropolitan.navlink",
+      "parent": null,
+      "children": [],
+      "settings": {
+        "title-en": "Collections",
+        "title-ar": "المجموعات",
+        "href": "/collections"
+      }
+    },
+    {
+      "id": "nav-1",
+      "type": "metropolitan.navlink",
+      "parent": null,
+      "children": [],
+      "settings": {
+        "title-en": "Men",
+        "title-ar": "رجال",
+        "href": "/collections/for-him"
+      }
+    },
+    {
+      "id": "nav-2",
+      "type": "metropolitan.navlink",
+      "parent": null,
+      "children": [],
+      "settings": {
+        "title-en": "Women",
+        "title-ar": "نساء",
+        "href": "/collections/for-her"
+      }
+    },
+    {
+      "id": "nav-3",
+      "type": "metropolitan.navlink",
+      "parent": null,
+      "children": [],
+      "settings": {
+        "title-en": "Lookbook",
+        "title-ar": "الإطلالات",
+        "href": "/pages/lookbook"
+      }
+    },
+    {
+      "id": "nav-4",
+      "type": "metropolitan.navlink",
+      "parent": null,
+      "children": [],
+      "settings": {
+        "title-en": "Sale",
+        "title-ar": "التخفيضات",
+        "href": "/collections/sales"
+      }
+    },
+    {
+      "id": "nav-5",
+      "type": "metropolitan.navlink",
+      "parent": null,
+      "children": [],
+      "settings": {
+        "title-en": "New Arrivals",
+        "title-ar": "وصل حديثًا",
+        "href": "/collections/new-arrivals"
+      }
+    },
+    {
+      "id": "home-featured",
+      "type": "metropolitan.featured",
+      "parent": null,
+      "children": [],
+      "settings": {
+        "title-en": "Men Tops",
+        "title-ar": "أساسيات للرجال",
+        "button-en": "View Collection",
+        "button-ar": "اكتشف المجموعة",
+        "href": "/collections/men-tops",
+        "image-url": "public/assets/metropolitan/demo-01-featured-product-01.webp"
+      }
+    }
+  ],
+  "assignments": []
+}
